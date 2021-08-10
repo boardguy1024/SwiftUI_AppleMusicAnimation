@@ -11,6 +11,9 @@
 		404A8D8826C23CDB00D30C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A8D8726C23CDB00D30C93 /* ContentView.swift */; };
 		404A8D8A26C23CDF00D30C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404A8D8926C23CDF00D30C93 /* Assets.xcassets */; };
 		404A8D8D26C23CDF00D30C93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404A8D8C26C23CDF00D30C93 /* Preview Assets.xcassets */; };
+		404A8D9726C23DDC00D30C93 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A8D9626C23DDC00D30C93 /* TabBar.swift */; };
+		404A8D9A26C2404400D30C93 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A8D9926C2404400D30C93 /* BlurView.swift */; };
+		404A8D9D26C2416E00D30C93 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A8D9C26C2416E00D30C93 /* MiniPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		404A8D8926C23CDF00D30C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		404A8D8C26C23CDF00D30C93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		404A8D8E26C23CDF00D30C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404A8D9626C23DDC00D30C93 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		404A8D9926C2404400D30C93 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		404A8D9C26C2416E00D30C93 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		404A8D8426C23CDB00D30C93 /* SwiftUI_AppleMusicAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				404A8D9526C23DCD00D30C93 /* View */,
 				404A8D8526C23CDB00D30C93 /* SwiftUI_AppleMusicAnimationApp.swift */,
 				404A8D8726C23CDB00D30C93 /* ContentView.swift */,
 				404A8D8926C23CDF00D30C93 /* Assets.xcassets */,
@@ -67,6 +74,16 @@
 				404A8D8C26C23CDF00D30C93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		404A8D9526C23DCD00D30C93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				404A8D9626C23DDC00D30C93 /* TabBar.swift */,
+				404A8D9926C2404400D30C93 /* BlurView.swift */,
+				404A8D9C26C2416E00D30C93 /* MiniPlayer.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404A8D9726C23DDC00D30C93 /* TabBar.swift in Sources */,
+				404A8D9A26C2404400D30C93 /* BlurView.swift in Sources */,
 				404A8D8826C23CDB00D30C93 /* ContentView.swift in Sources */,
+				404A8D9D26C2416E00D30C93 /* MiniPlayer.swift in Sources */,
 				404A8D8626C23CDB00D30C93 /* SwiftUI_AppleMusicAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
