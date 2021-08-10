@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403D0F0326C2C2BA00BA0AD8 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D0F0226C2C2BA00BA0AD8 /* Search.swift */; };
 		404A8D8626C23CDB00D30C93 /* SwiftUI_AppleMusicAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A8D8526C23CDB00D30C93 /* SwiftUI_AppleMusicAnimationApp.swift */; };
 		404A8D8826C23CDB00D30C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A8D8726C23CDB00D30C93 /* ContentView.swift */; };
 		404A8D8A26C23CDF00D30C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404A8D8926C23CDF00D30C93 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		403D0F0226C2C2BA00BA0AD8 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		404A8D8226C23CDB00D30C93 /* SwiftUI_AppleMusicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_AppleMusicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		404A8D8526C23CDB00D30C93 /* SwiftUI_AppleMusicAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppleMusicAnimationApp.swift; sourceTree = "<group>"; };
 		404A8D8726C23CDB00D30C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				404A8D9626C23DDC00D30C93 /* TabBar.swift */,
 				404A8D9926C2404400D30C93 /* BlurView.swift */,
 				404A8D9C26C2416E00D30C93 /* MiniPlayer.swift */,
+				403D0F0226C2C2BA00BA0AD8 /* Search.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				404A8D9726C23DDC00D30C93 /* TabBar.swift in Sources */,
 				404A8D9A26C2404400D30C93 /* BlurView.swift in Sources */,
 				404A8D8826C23CDB00D30C93 /* ContentView.swift in Sources */,
+				403D0F0326C2C2BA00BA0AD8 /* Search.swift in Sources */,
 				404A8D9D26C2416E00D30C93 /* MiniPlayer.swift in Sources */,
 				404A8D8626C23CDB00D30C93 /* SwiftUI_AppleMusicAnimationApp.swift in Sources */,
 			);
