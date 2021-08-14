@@ -13,6 +13,10 @@ struct TabBar: View {
     // Default is third
     @State var currentTab = 2
     
+    // Miniplayer
+    @State var isExpanded = false
+    
+    @Namespace var animation
     var body: some View {
         
         
@@ -42,7 +46,7 @@ struct TabBar: View {
                             }
                     })
             
-           MiniPlayer()
+           MiniPlayer(animation: animation, isExpended: $isExpanded)
         })
         
     }
